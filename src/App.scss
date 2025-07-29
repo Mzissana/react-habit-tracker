@@ -1,0 +1,43 @@
+@use "./styles/variables.scss" as *;
+:root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100%;
+  background-color: $color-main;
+  padding: 50px;
+}
+
+.App {
+  text-align: center;
+  background-color: $color-main;
+  height: 100%;
+  color: $color-accent-light;
+  border-radius: 15px;
+  border: 1px solid $color-accent;
+  padding: 20px 40px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.reset-button {
+  padding: 5px 10px;
+  color: $color-accent-light;
+  background-color: $color-main;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  outline: 1px solid $color-main;
+
+  &:hover {
+    outline: 1px solid $color-accent;
+  }
+}
+//
+
+//
+
+// #2c2b2a

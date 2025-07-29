@@ -1,0 +1,12 @@
+@use "../../styles/variables" as *;
+
+.list {
+  background-color: $color-blur;
+  border-radius: 6px;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+}

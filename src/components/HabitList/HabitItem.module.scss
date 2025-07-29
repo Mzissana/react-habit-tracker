@@ -1,0 +1,37 @@
+@use "../../styles/variables" as *;
+
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+
+  span {
+    margin-right: auto;
+  }
+
+  input {
+    min-width: 1ch;
+    max-width: 3ch;
+    text-align: center;
+    font-size: 16px;
+    padding: 3px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  button {
+    padding: 5px 10px;
+    color: $color-accent-light;
+    background-color: $color-main;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    outline: 1px solid $color-main;
+
+    &:hover {
+      outline: 1px solid $color-accent;
+    }
+  }
+}
