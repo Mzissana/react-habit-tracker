@@ -70,11 +70,11 @@ function App() {
       )}
 
       {habits.length > 0 && (
-        <button
+        <Button
           onClick={resetHabits}
           className="reset-button">
           Сбросить всё
-        </button>
+        </Button>
       )}
     </div>
   );
